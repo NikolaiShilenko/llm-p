@@ -95,20 +95,26 @@ ruff check
     └── README.md
 
 ### Скриншоты
-#### Регистрация
+#### Регистрация (POST /auth/register)
+![img.png](screenshots/1_register.png)
 
-
-#### Логин и получение токена
-
+#### Логин и получение токена (POST /auth/login)
+![img.png](screenshots/2_login.png)
 
 #### Авторизация в Swagger
+![img.png](screenshots/3_authorize.png)
 
+#### Проверка профиля текущего пользователя (GET /auth/me)
+![img.png](screenshots/4_me.png)
 
 #### Запрос к LLM (POST /chat)
-
+![img.png](screenshots/5_chat.png)
 
 #### Получение истории (GET /chat/history)
-
+![img.png](screenshots/6_history.png)
 
 #### Удаление истории (DELETE /chat/history)
+![img.png](screenshots/7_delete_history.png)
 
+### 8. Health check (GET /health)
+![Health](screenshots/8_health.png)
